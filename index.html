@@ -1,10 +1,271 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <title>Hello, Github</title>
-</head>
-<body>
-    <h1>I feel good</h1>
-</body>
+    <title>Ryan's homepage</title>
+    <!--bootstrap include-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <img
+            src="me.jpg"
+            alt="Ryan Yao"
+            class="img-responsive img-thumbnail"
+          />
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="container page-header">
+            <h1>Ryan ( Zun Ren ) Yao</h1>
+            <div class="contact-info">
+              <p><strong>Email:</strong> ryan.zryao@gmail.com</p>
+              <p><strong>Phone:</strong> +886 963 981 112</p>
+              <p>
+                <a href="ZunRenYao_Resume_v2.0.1.pdf">Resume</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="container mt-3">
+            <h2>Professional Summary</h2>
+            <div class="container">
+                <p>
+                    Experienced software engineer with over 9 years in software
+                    development, including expertise in video streaming, codecs, and
+                    image/video processing. Skilled in optimising complex systems,
+                    delivering scalable real-time solutions, and contributing to
+                    backend development and algorithm research. Recent experience
+                    focuses on audio processing, recognition algorithm development,
+                    machine learning, system design, and microservices. A proactive
+                    problem solver and collaborative team player, eager to learn and
+                    adapt to emerging technologies.
+                </p>
+            </div>
+            
+          </div>
+
+          <div class="container mt-4">
+            <h2>Professional Experience</h2>
+            <div id="experience" class="container">
+                <div id="Orfium" class="container">
+                    <div class="container-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <a class="btn" data-bs-toggle="collapse" href="#Orfium-body">
+                                    <strong>AI/ML Software Engineer - Orfium</strong>
+                                </a>
+                            </div>
+                            <div class="col-6 text-end">
+                                <strong>April 2023 - Present</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Orfium-body" class="container collapse show" data-bs-parent="#experience">
+                        <div class="container-body">
+                            <ul>
+                                <li>
+                                Designed and implemented advanced machine learning models,
+                                driving significant accuracy improvements in audio recognition
+                                systems through innovative algorithm research
+                                </li>
+                                <li>
+                                Optimised Kafka-based recording systems, achieving an 80%
+                                reduction in operational costs and a 75% decrease in resource
+                                usage while enhancing real-time data throughput
+                                </li>
+                                <li>
+                                Led a high-priority proof-of-concept (PoC) for cloud migration
+                                of the audio recognition system, delivering a comprehensive
+                                performance evaluation within one month, meeting critical
+                                business deadlines
+                                </li>
+                                <li>
+                                Streamlined the cue sheet generation process by developing
+                                robust, maintainable automation tools, cutting manual effort
+                                by 80% and improving accuracy
+                                </li>
+                                <li>
+                                Upgraded system monitoring capabilities, enabling early outage
+                                detection and reducing manual intervention time by 50% through
+                                proactive alert systems
+                                </li>
+                                <li>
+                                Conducted in-depth client asset analyses, implementing
+                                solutions that cut processing costs by up to 80% without
+                                compromising reporting accuracy or quality
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Wondercise" class="container">
+                    <div class="container-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <a class="btn" data-bs-toggle="collapse" href="#Wondercise-body">
+                                    <strong>Senior Software Engineer - Wondercise</strong>
+                                </a>
+                            </div>
+                            <div class="col-6 text-end">
+                                <strong>Feb 2021 - May 2022</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Wondercise-body" class="container collapse" data-bs-parent="#experience">
+                        <div class="container-body">
+                            <ul>
+                                <li>
+                                Improved multi-profile video encoding speed from 50% to
+                                real-time (100%) by integrating hardware accessories
+                                </li>
+                                <li>
+                                Designed and implemented a robust live streaming segment push
+                                scheduler, delivering seamless integration with AWS KVS in a
+                                PoC deployment
+                                </li>
+                                <li>
+                                Streamlined live video delivery by integrating RTMP and WebRTC
+                                protocols, ensuring high-quality, low-latency streaming for
+                                real-time applications
+                                </li>
+                                <li>
+                                Engineered a Yoga Pose detection system utilising Mediapipe,
+                                enabling precise motion tracking and analysis for fitness
+                                applications
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="KKStream" class="container">
+                    <div class="container-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <a class="btn" data-bs-toggle="collapse" href="#KKStream-body">
+                                    <strong>Video Streaming Engineer - KKStream</strong>
+                                </a>
+                            </div>
+                            <div class="col-6 text-end">
+                                <strong>Aug 2019 - May 2020</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="KKStream-body" class="container collapse" data-bs-parent="#experience">
+                        <div class="container-body">
+                            <ul>
+                                <li>
+                                Ensured reliability and performance of live and video encoding
+                                systems by maintaining infrastructure, troubleshooting
+                                critical issues, and developing new features to meet evolving
+                                requirements
+                                </li>
+                                <li>
+                                Developed scalable APIs and seamlessly integrated them into
+                                streaming systems, enhancing functionality and user experience
+                                for video delivery workflows
+                                </li>
+                                <li>
+                                Oversaw the end-to-end management of VoD and live streaming
+                                billing systems, ensuring accurate invoicing, scalability, and
+                                cost efficiency
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Novatek" class="container">
+                    <div class="container-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <a class="btn" data-bs-toggle="collapse" href="#Novatek-body">
+                                    <strong>Algorithm Researcher - Novatek</strong>
+                                </a>
+                            </div>
+                            <div class="col-6 text-end">
+                                <strong>Feb 2017 - Dec 2018</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Novatek-body" class="container collapse" data-bs-parent="#experience">
+                        <div class="container-body">
+                            <ul>
+                                <li>
+                                Developed perceptual preprocessing filters, reducing bitrate
+                                by 60%-90%
+                                </li>
+                                <li>
+                                Fine-tuned video encoding parameters and collaborated with the
+                                hardware designer for hardware adjustments
+                                </li>
+                                <li>
+                                Evaluated spatial/temporal noise reduction to optimise visual
+                                quality and bitrate
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Faraday" class="container">
+                    <div class="container-header">
+                        <div class="row">
+                            <div class="col-6">
+                                <a class="btn" data-bs-toggle="collapse" href="#Faraday-body">
+                                    <strong>Algorithm Engineer - Faraday</strong>
+                                </a>
+                            </div>
+                            <div class="col-6 text-end">
+                                <strong>Nov 2015 - Feb 2017</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Faraday-body" class="container collapse" data-bs-parent="#experience">
+                        <div class="container-body">
+                            <ul>
+                                <li>Conducted H.264 rate control and adaptive QP evaluation</li>
+                                <li>
+                                Assisted with encoder IPs FPGA verification and quality
+                                assessment
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+          <div id="education" class="container mt-4">
+            <h2>Education</h2>
+            <div class="degree mb-3">
+              <p>Master of Computer Science - National Taiwan University</p>
+            </div>
+            <div class="degree mb-3">
+              <p>Bachelor of Computer Science - National Taiwan University</p>
+            </div>
+          </div>
+
+          <div id="skills" class="container mt-4">
+            <h2>Technical Skills</h2>
+            <div class="skill-category mb-3">
+              <h4>Programming Languages:</h4>
+              <p>C/C++, Python, Matlab</p>
+            </div>
+            <div class="skill-category mb-3">
+              <h4>Knowledge & Technologies:</h4>
+              <p>
+                Linux, Kubernetes, Image/Video processing, Image quality, AVC,
+                HEVC, FPGA validation, AWS, AWS Elemental service, RESTful API,
+                PostgreSQL, MySQL, Machine learning
+              </p>
+            </div>
+          </div>
+            </div>
+      </div>
+    </div>
+    <!--bootstrap include-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
